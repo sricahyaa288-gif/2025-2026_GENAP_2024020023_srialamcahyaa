@@ -1,11 +1,670 @@
-<!DOCTIPE HTML>
-<html> 
-<head> <title>contoh</title>
-</head>
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Universitas Handayani Makassar</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+
   <body>
-    <h2 style="color:red;">
-      teknik informatika
-    </h2>
-  
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="img/handayani-logo.png" alt="Logo" />
+
+          <div>
+            <h2>Universitas Handayani</h2>
+            <p>Makassar</p>
+          </div>
+        </div>
+
+        <ul class="menu">
+          <li><a href="#">Beranda</a></li>
+
+          <li class="dropdown">
+            <a href="#"> Profil </a>
+
+            <ul class="dropdown-menu">
+              <li><a href="sejarah.html">Sejarah</a></li>
+
+              <li><a href="visi-misi.html">Visi &amp; Misi</a></li>
+
+              <li>
+                <a href="struktur-organisasi.html"> Struktur Organisasi </a>
+              </li>
+
+              <li><a href="dosen.html">Dosen</a></li>
+
+              <li><a href="sarana-pendidikan.html"> Sarana Pendidikan </a></li>
+
+              <li>
+                <a href="riwayat-akreditasi.html"> Riwayat Akreditasi </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">Akademik</a>
+
+            <ul class="dropdown-menu">
+              <li><a href="kalender-akademik.html">Kalender Akademik</a></li>
+              <li><a href="peraturan-akademik.html">Peraturan Akademik</a></li>
+              <li><a href="biaya-pendidikan.html">Biaya pendidikan</a></li>
+              <li><a href="kemahasiswaan.html">kemahasiswaan</a></li>
+            </ul>
+          </li>
+
+          <!-- <li class="dropdown">
+            <a href="#">Fakultas</a>
+
+            <ul class="dropdown-menu">
+              <li><a href="#">Teknik Informatika</a></li>
+              <li><a href="#">Sistem Informasi</a></li>
+              <li><a href="#">Manajemen</a></li>
+              <li><a href="#">Akuntansi</a></li>
+            </ul>
+          </li> -->
+
+          <!-- <li class="dropdown">
+            <a href="#">PMB</a>
+
+            <ul class="dropdown-menu">
+              <li><a href="#">Jalur Pendaftaran</a></li>
+              <li><a href="#">Biaya Kuliah</a></li>
+              <li><a href="#">Jadwal PMB</a></li>
+              <li><a href="#">Daftar Online</a></li>
+            </ul>
+          </li> -->
+
+          <li class="dropdown">
+            <a href="#"> Berita </a>
+
+            <ul class="dropdown-menu">
+              <li>
+                <a href="berita-kampus.html"> Berita Kampus </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">Kontak</a>
+
+            <ul class="dropdown-menu">
+              <li><a href="Hubungi Kami.html">Hubungi Kami</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <button class="btn-pmb">
+          <a href="pmb2026.html"> PMB 2026</a>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+
+    <section class="hero">
+      <div class="hero-bg hero-bg-1"></div>
+      <div class="hero-bg hero-bg-2"></div>
+      <div class="hero-bg hero-bg-3"></div>
+      <div class="hero-left">
+        <span class="welcome"> Selamat Datang di </span>
+
+        <h1>
+          Universitas
+          <br />
+          Handayani
+          <br />
+          Makassar
+        </h1>
+
+        <p>
+          Mewujudkan generasi unggul, berkarakter, dan berdaya saing melalui
+          pendidikan berkualitas serta inovasi teknologi.
+        </p>
+
+        <div class="hero-button">
+          <a href="#" class="btn-primary"> Jelajahi Kampus </a>
+
+          <a
+            href="https://youtu.be/UGfno8P7fnI?si=ME-_8mJzP6sKq-Ny"
+            class="btn-secondary"
+          >
+            ▶ Video Profil
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="swiper heroSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/dosen.png" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="img/yayasan.png" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="img/rektor1.png" alt="" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="img/wisuda.png" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="stat-card">
+        <h2>15.000+</h2>
+
+        <p>Mahasiswa</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>8</h2>
+
+        <p>Fakultas</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>24</h2>
+
+        <p>Program Studi</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>A</h2>
+
+        <p>Akreditasi</p>
+      </div>
+    </section>
+    <!-- =========================
+     ABOUT
+========================== -->
+
+    <section class="about">
+      <div class="about-image">
+        <div class="image-box">
+          <img
+            src="img/kampus-handayani.png"
+            alt="Universitas Handayani Makassar"
+          />
+
+          <div class="experience-card">
+            <h2>29+</h2>
+            <p>Tahun Mengabdi</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <span class="section-tag"> Tentang Kami </span>
+
+        <h2>Universitas Handayani Makassar</h2>
+
+        <p>
+          Universitas Handayani Makassar merupakan perguruan tinggi yang
+          berkomitmen mencetak lulusan unggul, inovatif, dan siap menghadapi
+          tantangan dunia kerja melalui pendidikan berbasis teknologi serta
+          kolaborasi industri.
+        </p>
+
+        <div class="about-list">
+          <div class="list-item">✔ Kampus Terakreditasi</div>
+
+          <div class="list-item">✔ Dosen Profesional</div>
+
+          <div class="list-item">✔ Laboratorium Modern</div>
+
+          <div class="list-item">✔ Kerjasama Industri</div>
+        </div>
+
+        <a href="#" class="about-btn"> Selengkapnya → </a>
+      </div>
+    </section>
+
+    <!-- =========================
+      FAKULTAS
+========================= -->
+
+    <section class="faculty">
+      <div class="faculty-title">
+        <span class="section-tag">Fakultas</span>
+
+        <h2>Fakultas Universitas Handayani Makassar</h2>
+
+        <p>
+          Pilih fakultas terbaik untuk membangun masa depan bersama Universitas
+          Handayani Makassar.
+        </p>
+      </div>
+
+      <div class="faculty-grid">
+        <div class="faculty-card">
+          <div class="faculty-icon">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+
+          <h3>Fakultas Teknik & Informatika</h3>
+
+          <p>
+            Menghasilkan lulusan unggul di bidang teknologi informasi, software
+            engineering, AI, dan jaringan komputer.
+          </p>
+
+          <a href="#">Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="faculty-card">
+          <div class="faculty-icon">
+            <i class="fa-solid fa-chart-column"></i>
+          </div>
+
+          <h3>Fakultas Ekonomi & Bisnis</h3>
+
+          <p>
+            Mempersiapkan mahasiswa menjadi profesional di bidang manajemen,
+            bisnis digital, dan kewirausahaan.
+          </p>
+
+          <a href="#">Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="faculty-card">
+          <div class="faculty-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+
+          <h3>Pascasarjana</h3>
+
+          <p>
+            Program Magister dengan kurikulum yang relevan terhadap perkembangan
+            industri dan teknologi.
+          </p>
+
+          <a href="#">Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+     KEUNGGULAN KAMPUS
+========================== -->
+
+    <section class="advantages" id="keunggulan">
+      <div class="section-title">
+        <span>Why Choose Us</span>
+        <h2>Mengapa Memilih Universitas Handayani Makassar</h2>
+        <p>
+          Kami berkomitmen memberikan pendidikan berkualitas, menghasilkan
+          lulusan yang unggul, profesional, dan siap bersaing di era digital.
+        </p>
+      </div>
+
+      <div class="advantages-grid">
+        <div class="adv-card">
+          <div class="adv-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3>Akreditasi Unggul</h3>
+          <p>Program studi berkualitas dengan standar pendidikan terbaik.</p>
+        </div>
+
+        <div class="adv-card">
+          <div class="adv-icon">
+            <i class="fas fa-chalkboard-teacher"></i>
+          </div>
+          <h3>Dosen Profesional</h3>
+          <p>Didukung tenaga pengajar berpengalaman dan kompeten.</p>
+        </div>
+
+        <div class="adv-card">
+          <div class="adv-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3>Laboratorium Modern</h3>
+          <p>Fasilitas laboratorium lengkap untuk menunjang pembelajaran.</p>
+        </div>
+
+        <div class="adv-card">
+          <div class="adv-icon">
+            <i class="fas fa-handshake"></i>
+          </div>
+          <h3>Kerjasama Industri</h3>
+          <p>Bermitra dengan berbagai perusahaan dan instansi nasional.</p>
+        </div>
+
+        <div class="adv-card">
+          <div class="adv-icon">
+            <i class="fas fa-award"></i>
+          </div>
+          <h3>Beasiswa</h3>
+          <p>Tersedia berbagai program beasiswa bagi mahasiswa berprestasi.</p>
+        </div>
+
+        <div class="adv-card">
+          <div class="adv-icon">
+            <i class="fas fa-user-graduate"></i>
+          </div>
+          <h3>Lulusan Berkualitas</h3>
+          <p>Siap bekerja, berwirausaha, dan berkontribusi bagi masyarakat.</p>
+        </div>
+      </div>
+    </section>
+    <!-- =========================
+     VIDEO PROFIL
+========================== -->
+
+    <section class="video-section">
+      <div class="video-overlay"></div>
+
+      <div class="video-content">
+        <span class="section-tag">Video Profil</span>
+
+        <h2>Kenali Lebih Dekat Universitas Handayani Makassar</h2>
+
+        <p>
+          Lihat suasana kampus, kegiatan mahasiswa, fasilitas modern, dan
+          berbagai aktivitas akademik yang mendukung pembelajaran.
+        </p>
+
+        <a
+          href="https://youtu.be/go2Yr1lXYeE?si=KZOyDVK3PzhoWoL5"
+          target="_blank"
+          class="play-btn"
+        >
+          <i class="fa-solid fa-play"></i>
+        </a>
+
+        <h3>Tonton Video Profil</h3>
+      </div>
+    </section>
+
+    <!-- =========================
+      GALERI KAMPUS
+========================= -->
+
+    <section class="gallery">
+      <div class="gallery-title">
+        <span class="section-tag">Galeri Kampus</span>
+
+        <h2>Momen Terbaik Universitas Handayani Makassar</h2>
+
+        <p>
+          Dokumentasi berbagai kegiatan akademik, wisuda, seminar, organisasi
+          mahasiswa, dan fasilitas kampus.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="img/kampus-handayani.png" alt="" />
+          <div class="gallery-overlay">
+            <h3>Gedung Kampus</h3>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="img/laboratorium.jpeg" alt="" />
+          <div class="gallery-overlay">
+            <h3>Laboratorium</h3>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="img/wisuda.png" alt="" />
+          <div class="gallery-overlay">
+            <h3>Wisuda</h3>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="img/berita6.png" alt="" />
+          <div class="gallery-overlay">
+            <h3>Seminar Nasional</h3>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="img/mahasiswa.jpg" alt="" />
+          <div class="gallery-overlay">
+            <h3>Mahasiswa</h3>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="img/perpustakaan2.jpeg" alt="" />
+          <div class="gallery-overlay">
+            <h3>Perpustakaan</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+        CALL TO ACTION
+========================== -->
+
+    <section class="cta">
+      <div class="cta-content">
+        <span class="cta-tag">Penerimaan Mahasiswa Baru 2026</span>
+
+        <h2>
+          Wujudkan Masa Depanmu
+          <br />
+          Bersama Universitas Handayani Makassar
+        </h2>
+
+        <p>
+          Bergabunglah bersama ribuan mahasiswa yang telah memilih Universitas
+          Handayani Makassar sebagai tempat meraih ilmu, prestasi, dan masa
+          depan yang gemilang.
+        </p>
+
+        <div class="cta-button">
+          <a href="#" class="cta-primary">
+            Daftar Sekarang
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+
+          <a href="#" class="cta-secondary"> Hubungi Kami </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+        LOKASI KAMPUS
+========================== -->
+
+    <section class="location">
+      <div class="location-title">
+        <span class="section-tag">Lokasi Kampus</span>
+
+        <h2>Temukan Universitas Handayani Makassar</h2>
+
+        <p>
+          Kunjungi kampus kami dan rasakan suasana belajar yang nyaman, modern,
+          serta didukung fasilitas terbaik untuk mahasiswa.
+        </p>
+      </div>
+
+      <div class="location-container">
+        <!-- Google Maps -->
+
+        <div class="map-box">
+          <iframe
+            src="https://www.google.com/maps?q=Universitas%20Handayani%20Makassar&output=embed"
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+
+        <!-- Informasi -->
+
+        <div class="info-box">
+          <div class="info-item">
+            <i class="fa-solid fa-location-dot"></i>
+
+            <div>
+              <h3>Alamat</h3>
+
+              <p>
+                Jl. Adhyaksa Baru No.1, Pandang, Kec. Panakkukang, Kota
+                Makassar, Sulawesi Selatan
+              </p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <i class="fa-solid fa-phone"></i>
+
+            <div>
+              <h3>Telepon</h3>
+
+              <p>(0411) 4673395</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <i class="fa-solid fa-envelope"></i>
+
+            <div>
+              <h3>Email</h3>
+
+              <p>info@handayani.ac.id</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <i class="fa-solid fa-clock"></i>
+
+            <div>
+              <h3>Jam Operasional</h3>
+
+              <p>Senin - Jumat : 08.00 - 17.00 WITA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+        FOOTER
+========================== -->
+
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Logo -->
+        <div class="footer-box">
+          <img src="img/handayani-logo.png" alt="Logo" />
+
+          <h3>Universitas Handayani Makassar</h3>
+
+          <p>
+            Kampus yang berkomitmen menghasilkan lulusan unggul, inovatif, dan
+            berdaya saing global melalui pendidikan berbasis teknologi.
+          </p>
+
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+            <a href="#"><i class="fab fa-instagram"></i></a>
+
+            <a href="#"><i class="fab fa-youtube"></i></a>
+
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <!-- Menu -->
+
+        <div class="footer-box">
+          <h4>Menu</h4>
+
+          <ul>
+            <li><a href="#">Beranda</a></li>
+
+            <li><a href="#">Profil</a></li>
+
+            <li><a href="#">Akademik</a></li>
+
+            <li><a href="#">Fakultas</a></li>
+
+            <li><a href="#">PMB</a></li>
+          </ul>
+        </div>
+
+        <!-- Layanan -->
+
+        <div class="footer-box">
+          <h4>Layanan</h4>
+
+          <ul>
+            <li><a href="#">Berita</a></li>
+
+            <li><a href="#">Agenda</a></li>
+
+            <li><a href="#">Galeri</a></li>
+
+            <li><a href="#">Video Profil</a></li>
+
+            <li><a href="#">Kontak</a></li>
+          </ul>
+        </div>
+
+        <!-- Kontak -->
+
+        <div class="footer-box">
+          <h4><a href="Hubungi Kami.html">Hubungi Kami</a></h4>
+
+          <p><i class="fas fa-location-dot"></i> Makassar, Sulawesi Selatan</p>
+
+          <p><i class="fas fa-phone"></i> (0411) 4673395</p>
+
+          <p><i class="fas fa-envelope"></i> info@handayani.ac.id</p>
+
+          <p><i class="fas fa-clock"></i> Senin - Jumat (08.00 - 17.00)</p>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="footer-bottom">
+        <p>© 2026 Universitas Handayani Makassar. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
