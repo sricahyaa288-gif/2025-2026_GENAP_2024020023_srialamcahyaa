@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Dosen | Universitas Handayani Makassar</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+
+    <!-- PROGRAM STUDI DOSEN -->
+
+    <section class="program-dosen">
+      <div class="section-title">
+        <span class="section-tag">Program Studi</span>
+        <h2>Jumlah Dosen Berdasarkan Program Studi</h2>
+      </div>
+
+      <div class="program-container">
+        <!-- ================= TEKNIK INFORMATIKA ================= -->
+
+        <div class="program-card" onclick="toggleDosen('ti')">
+          <i class="fa-solid fa-laptop-code"></i>
+
+          <h3>Teknik Informatika</h3>
+
+          <span>26 Dosen</span>
+
+          <div id="ti" class="list-dosen">
+            <h4>Daftar Dosen Teknik Informatika</h4>
+
+            <p>1. Mashur Razak</p>
+            <p>2. Abdul Rokhman</p>
+            <p>3. Najirah</p>
+            <p>4. Imran Taufik</p>
+            <p>5. Suwatri Jura</p>
+            <p>6. Saftani Muhammad Ridwan</p>
+            <p>7. Yuliah</p>
+            <p>8. Herlinah</p>
+            <p>9. I Wayan Suparno</p>
+            <p>10. Andi Arniaty</p>
+            <p>11. Arham Andi Aco</p>
+            <p>12. Mirfan</p>
+            <p>13. Kamaruddin</p>
+            <p>14. Respati Namruddin</p>
+            <p>15. Novita Dwi Maharani Sahban</p>
+            <p>16. Wiwin Heriadi Andi Djalal</p>
+            <p>17. Fitriyanti</p>
+            <p>18. Nurilmiyanti Wardhani</p>
+            <p>19. M Adnan Nur</p>
+            <p>20. Billy Eden William Asrul</p>
+            <p>21. Ulfa Laela Rambega</p>
+            <p>22. Muslim</p>
+            <p>23. Musdalifah Asis</p>
+            <p>24. Nuzulul Afia Idris</p>
+            <p>25. Solihin Tahir</p>
+            <p>26. Irwan</p>
+          </div>
+        </div>
+
+        <!-- ================= SISTEM KOMPUTER ================= -->
+
+        <div class="program-card" onclick="toggleDosen('sk')">
+          <i class="fa-solid fa-desktop"></i>
+
+          <h3>Sistem Komputer</h3>
+
+          <span>17 Dosen</span>
+
+          <div id="sk" class="list-dosen">
+            <h4>S2 Sistem Komputer</h4>
+
+            <p>1. Moh. Alifuddin, Dr., M.Kom</p>
+            <p>2. Hamdan Ghani, S.Kom., MT., PhD</p>
+            <p>3. Supriadi, Dr., M.T., S.Kom</p>
+            <p>4. Agussalim, Dr.Eng., MT., S.Pd</p>
+            <p>5. Hazriani, Dr.Eng., MT., S.Kom</p>
+            <p>6. Yuyun, Dr.Eng., MT., S.Kom</p>
+            <p>7. Baso Habibi</p>
+            <p>8. Abdul Jalil, M.Kom., S.Kom</p>
+
+            <h4>S1 Sistem Komputer</h4>
+
+            <p>1. Mohamad Ridwan</p>
+            <p>2. Guntur</p>
+            <p>3. Abd Latief Arda</p>
+            <p>4. Muhammad Risal</p>
+            <p>5. Syamsu Alam</p>
+            <p>6. Sitti Zuhriyah</p>
+            <p>7. Muhammad Akbar</p>
+            <p>8. Matalangi</p>
+            <p>9. Nur Mustika</p>
+          </div>
+        </div>
+
+        <!-- ================= SISTEM INFORMASI ================= -->
+
+        <div class="program-card" onclick="toggleDosen('si')">
+          <i class="fa-solid fa-network-wired"></i>
+
+          <h3>Sistem Informasi</h3>
+
+          <span>9 Dosen</span>
+
+          <div id="si" class="list-dosen">
+            <h4>Daftar Dosen Sistem Informasi</h4>
+
+            <p>1. Nasrullah</p>
+            <p>2. Muhammadiyah Yunus</p>
+            <p>3. Baidillah Sahabuddin</p>
+            <p>4. Seni Asria</p>
+            <p>5. Ririn Indraswari</p>
+            <p>6. Fadly Shabir</p>
+            <p>7. Ahmad Adivar</p>
+            <p>8. Supriadi Syam</p>
+            <p>9. A. Edeth Fuari Anatasya</p>
+          </div>
+        </div>
+
+        <!-- ================= KOMPUTERISASI AKUNTANSI ================= -->
+
+        <div class="program-card" onclick="toggleDosen('ka')">
+          <i class="fa-solid fa-calculator"></i>
+
+          <h3>Komputerisasi Akuntansi</h3>
+
+          <span>5 Dosen</span>
+
+          <div id="ka" class="list-dosen">
+            <h4>Daftar Dosen Komputerisasi Akuntansi</h4>
+
+            <p>1. Tamrin Meda</p>
+            <p>2. Arnida</p>
+            <p>3. Nurmadina HS</p>
+            <p>4. Arif Rahman</p>
+            <p>5. Alman</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer-bottom">
+      <p>© 2026 Universitas Handayani Makassar</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
